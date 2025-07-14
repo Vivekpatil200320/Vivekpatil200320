@@ -1,5 +1,26 @@
-# 💫 About Me:
-### Hi there 👋, I'm Vivek Patil<br/><br>I'm a passionate full-stack web developer and tech enthusiast from India 🚀<br/><br>🌱 Currently working on JavaScript and its frameworks.. <br/><br>Currently studying Master in Computer Applications inthe field of Data Science..<br/> <br>🎯 Fun Fact: I drink code and coffee ☕ daily.<br/><br>🧠 Quote: "First, solve the problem. Then, write the code." – John Johnson<br/><br>📫 How to reach me:- <br/><br>            .Email- Vivekpatil2000320@gmail.com<br/><br>            .LinkedIn- https://www.linkedin.com/in/vivekpatil23/<br/><br>
+Hi there 👋, I'm Vivek Patil
+Full-Stack Web Developer | Data Science Enthusiast | Tech Explorer
+🚀 Passionate about building scalable web applications and diving deep into data-driven solutions. Currently mastering JavaScript and its ecosystem while pursuing my Master's in Computer Applications (MCA) with a focus on Data Science.
+
+🌱 Currently Working On:
+
+Sharpening my skills in modern JavaScript frameworks (React, Node.js, etc.)
+
+Exploring data science concepts and machine learning
+
+💡 Fun Fact: I run on code and coffee ☕—sometimes interchangeably!
+
+✨ Favorite Quote:
+
+"First, solve the problem. Then, write the code." — John Johnson
+
+📫 Let's Connect!
+
+📧 Email: Vivekpatil2000320@gmail.com
+
+💼 LinkedIn: Vivek Patil
+
+
 
 
 ## 🌐 Socials:
