@@ -8,7 +8,7 @@ Hi there 👋, I'm Vivek Patil
 * **VDev Automations:** Building custom business workflows, speed-to-lead engines, and enterprise outreach systems utilizing **Make.com**, **Apollo.io**, and **AiSensy**.
 * **Ecosystem Engineering:** Developing custom protocol implementations for the Model Context Protocol (MCP) framework to extend LLM runtime diagnostic capabilities.
 * **Full-Stack Agent Infrastructure:** Writing clean, distributed backends using **Next.js**, **FastAPI/Python**, and **MongoDB Atlas** clusters.
-
+[![cyberrescue MCP server](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue/badges/card.svg)](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue)
 ---
 
 ### 📦 Highlighted Open Source Projects
