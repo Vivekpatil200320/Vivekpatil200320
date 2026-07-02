@@ -1,63 +1,75 @@
-# 💫 About Me:
-Hi there 👋, I'm Vivek Patil
-**Founder & Operations Manager at VDev Automations** | **AI Agent Infrastructure Engineer** 🚀 I specialize in engineering autonomous, production-ready AI agent architectures and building scalable enterprise automation pipelines. From writing complex full-stack web platforms to building context-aware telemetry bridges that fix AI "sandbox blindness," I build tools that enable intelligent agents to interact seamlessly with real-world infrastructure.
+# 💫 About Me
+
+Hi there 👋, I'm **Vivek Patil** — **Founder & Operations Manager at VDev Automations** | **AI Agent Infrastructure Engineer** 🚀
+
+I build production-ready AI agent infrastructure: MCP servers that give LLMs real diagnostic hands, grounded RAG pipelines with measurable retrieval quality, and self-healing coding agents that run fully on-device. From full-stack web platforms to context-aware telemetry bridges that fix AI "sandbox blindness," I build tools that let intelligent agents interact safely with real-world infrastructure.
 
 ---
 
-### 🌱 Current Focus & Initiatives
-* **VDev Automations:** Building custom business workflows, speed-to-lead engines, and enterprise outreach systems utilizing **Make.com**, **Apollo.io**, and **AiSensy**.
-* **Ecosystem Engineering:** Developing custom protocol implementations for the Model Context Protocol (MCP) framework to extend LLM runtime diagnostic capabilities.
-* **Full-Stack Agent Infrastructure:** Writing clean, distributed backends using **Next.js**, **FastAPI/Python**, and **MongoDB Atlas** clusters.
+### 🌱 Current Focus
 
-* 
-[![cyberrescue MCP server](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue/badges/card.svg)](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue)
+* **VDev Automations:** Custom business workflows, speed-to-lead engines, and enterprise outreach systems.
+* **AI Agent Infrastructure:** MCP servers, hybrid-retrieval RAG backends, and LangGraph agent loops — shipped, deployed, and observable.
+* **DSA Practice:** Working through the NeetCode 75 roadmap in Python, 3–4 problems a week.
+
 ---
 
-### 📦 Highlighted Open Source Projects
+### 📦 Featured Projects
 
 #### ⚓ [CyberRescue](https://github.com/vivekpatil200320/cyberrescue)
-*A secure, lightweight Model Context Protocol (MCP) host telemetry gateway built using Python, FastMCP, and `python-on-whales`.*
-* Allows AI coding agents (like Claude Desktop, Cursor, or Windsurf) to securely inspect host-level Docker daemon contexts.
-* Exposes automated container logs streaming, real-time memory/CPU exhaustion probing, and isolated diagnostic execution.
-* **Status:** Verified **A-Grade Quality** on Glama, listed on global MCP indexes, and open-source compliant.
+*A secure MCP host telemetry gateway — gives Claude eyes and hands inside broken Docker containers.*
+* Exposes container log streaming, live memory/CPU probing, and isolated diagnostic execution to any MCP client, with input validation, command blocklists, retry with back-off, and sanitized errors built in.
+* Cuts per-endpoint agent integration time from ~2 hours to under 30 minutes — new diagnostic capabilities are a single decorated function.
+* **Status:** Verified **A-Grade Quality** on Glama, CI-tested on every push, listed on global MCP indexes.
+
+[![cyberrescue MCP server](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue/badges/card.svg)](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue)
+
+#### 📚 [ContextQuery](https://github.com/vivekpatil200320/contextquery-backend)
+*Grounded document Q&A with hybrid retrieval — every answer traceable to the exact source passage.*
+* Hybrid BM25 + semantic search (fused via Reciprocal Rank Fusion) with NVIDIA NIM reranking cuts irrelevant context injection by ~40% versus naive top-K retrieval.
+* FastAPI + Chroma Cloud + NVIDIA NIM (embed/rerank/LLM), traced end-to-end in Langfuse, with a repeatable eval harness. [Next.js 15 frontend](https://github.com/vivekpatil200320/contextquery-frontend) · [Live demo](https://contextquery-frontend.vercel.app)
+
+#### 🚀 [PyCursor](https://github.com/Vivekpatil200320/PyCursor--Self-Healing-Hybrid-Coding-Agent)
+*A self-healing Python coding agent — writes, executes, and fixes its own code.*
+* LangGraph state machine feeds runtime stack traces back into the LLM until the code executes cleanly: 90% self-healing success rate on Python stack traces.
+* Runs fully on-device via Ollama (Qwen2.5-Coder 7B) by default, with a one-toggle switch to Gemini cloud inference.
+
+#### 🧠 [leetcode-solutions](https://github.com/vivekpatil200320/leetcode-solutions)
+*DSA practice in Python, structured around the NeetCode 75 roadmap — 3–4 problems a week, each with complexity notes and intuition.*
 
 ---
 
-### 💡 Tech Stack & Tooling
+### 💡 Tech Stack
 
-#### 🤖 AI Engineering & Context Gateways
+#### 🤖 AI & Agent Engineering
 ![Model Context Protocol](https://img.shields.io/badge/MCP-Protocol-blue?style=for-the-badge&logo=anthropic&logoColor=white)
 ![FastMCP](https://img.shields.io/badge/FastMCP-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-orange?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-1C3C3C?style=for-the-badge)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-Inference-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLMs-black?style=for-the-badge)
-![Vertex AI](https://img.shields.io/badge/Google_Vertex_AI-Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Chroma](https://img.shields.io/badge/Chroma-Vector_DB-FF6B6B?style=for-the-badge)
+![Langfuse](https://img.shields.io/badge/Langfuse-Observability-000000?style=for-the-badge)
 
-#### ⚡ Workflow Automation & Outbound Engines
-![Make.com](https://img.shields.io/badge/Make.com-Automation-000000?style=for-the-badge&logo=make&logoColor=white)
-![Apollo.io](https://img.shields.io/badge/Apollo.io-Leads-118D95?style=for-the-badge)
-![AiSensy](https://img.shields.io/badge/AiSensy-WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
-
-#### 🌐 Core Languages & Frameworks
+#### 🌐 Languages & Frameworks
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-#### 🗄️ Databases & Hosting Infrastructure
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+#### 🗄️ Infrastructure & Delivery
 ![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-Deploy-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 ---
 
 ### 📫 Let's Connect!
 * 💼 **LinkedIn:** [linkedin.com/in/vivekpatil23](https://linkedin.com/in/vivekpatil23)
-* 📧 **Email:** Vivekpatil2000320@gmail.com
+* 📧 **Email:** vivekpatil200320@gmail.com
 * 🛠️ **Glama Registry Profile:** [glama.ai/mcp/servers/vivekpatil200320/cyberrescue](https://glama.ai/mcp/servers/vivekpatil200320/cyberrescue)
 
 ✨ *"First, solve the problem. Then, write the code."* — John Johnson
