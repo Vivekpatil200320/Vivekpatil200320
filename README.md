@@ -68,7 +68,7 @@ I build production-ready AI agent infrastructure: MCP servers that give LLMs rea
 ---
 
 ### 📫 Let's Connect!
-* 💼 **LinkedIn:** [linkedin.com/in/vivekpatil23](https://linkedin.com/in/vivekpatil23)
+* 💼 **LinkedIn:** [linkedin.com/in/vivekpatil23](https://linkedin.com/in/vivek-vdev)
 * 📧 **Email:** vivekpatil200320@gmail.com
 * 🛠️ **Glama Registry Profile:** [glama.ai/mcp/servers/vivekpatil200320/cyberrescue](https://glama.ai/mcp/servers/vivekpatil200320/cyberrescue)
 
