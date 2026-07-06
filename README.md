@@ -33,7 +33,7 @@ I'm a self-taught, independent builder working on AI agent infrastructure — MC
 *Grounded document Q&A with hybrid retrieval — every answer traceable to the exact source passage.*
 - Hybrid BM25 + semantic search (fused via Reciprocal Rank Fusion) with NVIDIA NIM reranking cuts irrelevant context injection by ~40% versus naive top-K retrieval.
 - FastAPI + Chroma Cloud + NVIDIA NIM (embed/rerank/LLM), traced end-to-end in Langfuse, with a repeatable eval harness.
-- [Next.js 15 frontend](https://github.com/vivekpatil200320/contextquery-frontend) · [Live demo](https://contextquery-frontend.vercel.app)
+- [Next.js 15 frontend](https://github.com/vivekpatil200320/contextquery-frontend) · [Live demo](https://contextquery-frontend.vercel.app) · [Write-up: how I got 100% retrieval precision with hybrid RRF](https://dev.to/vivek_vdev/hybrid-retrieval-rrf-how-i-got-100-retrieval-precision-in-a-production-rag-system-1oga)
 
 #### 🚀 [PyCursor](https://github.com/Vivekpatil200320/PyCursor--Self-Healing-Hybrid-Coding-Agent)
 *A self-healing Python coding agent — writes, executes, and fixes its own code.*
@@ -83,5 +83,7 @@ I'm a self-taught, independent builder working on AI agent infrastructure — MC
 - 💼 **LinkedIn:** [linkedin.com/in/vivek-vdev](https://linkedin.com/in/vivek-vdev)
 - 📧 **Email:** vivekpatil200320@gmail.com
 - 🛠️ **Glama Registry:** [glama.ai/mcp/servers/vivekpatil200320/cyberrescue](https://glama.ai/mcp/servers/vivekpatil200320/cyberrescue)
+- ✍️ **Hashnode:** [vivekpatil23.hashnode.dev](https://vivekpatil23.hashnode.dev/)
+- ✍️ **dev.to:** [dev.to/vivek_vdev](https://dev.to/vivek_vdev)
 
 ✨ *"First, solve the problem. Then, write the code."* — John Johnson
