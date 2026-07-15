@@ -57,6 +57,7 @@ I'm a self-taught, independent builder working on AI agent infrastructure — MC
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-1C3C3C?style=for-the-badge)
 ![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-Inference-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLMs-black?style=for-the-badge)
+![Google Gemini](https://img.shields.io/badge/Gemini-Cloud_Inference-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Chroma](https://img.shields.io/badge/Chroma-Vector_DB-FF6B6B?style=for-the-badge)
 ![Langfuse](https://img.shields.io/badge/Langfuse-Observability-000000?style=for-the-badge)
 
@@ -64,6 +65,8 @@ I'm a self-taught, independent builder working on AI agent infrastructure — MC
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-Validation-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-Testing-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
