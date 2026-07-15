@@ -10,6 +10,8 @@ I'm a self-taught, independent builder working on AI agent infrastructure — MC
 - Working through the NeetCode 75 roadmap in Python, a few problems a week.
 - Always looking for the next project that has a real, non-obvious engineering problem hiding in it.
 
+![GitHub Streak](https://streak-stats.demolab.com/?user=vivekpatil200320&theme=dark&hide_border=true)
+
 ---
 
 ### 📦 Featured projects
