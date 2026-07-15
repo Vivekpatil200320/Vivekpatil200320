@@ -1,25 +1,89 @@
-# 💫 About Me:
-Vivekpatil200320/README.md<br>Hi, I'm Vivek 👋<br><br>I'm a self-taught, independent builder working on AI agent infrastructure — MCP servers that give LLMs real diagnostic hands, grounded RAG pipelines with measurable retrieval quality, multi-agent LangGraph systems, and self-healing coding agents. I like projects where the interesting part isn't "call an LLM," it's the plumbing around it: sandboxing, observability, failure-mode analysis, and the kind of architecture decisions you only find by actually running the thing under load.<br><br>🌱 Currently<br><br>Building and shipping full-stack AI agent systems end to end — backend, frontend, infra, and the docs explaining why they're built that way.<br>Working through the NeetCode 75 roadmap in Python, a few problems a week.<br>Always looking for the next project that has a real, non-obvious engineering problem hiding in it.<br>📦 Featured projects<br><br>🧑‍🏫 ai-coding-mentor<br><br>A Socratic AI mentor that guides you to fix broken code through questions, never answers — then delivers a rubric-scored senior-engineer code review once you pass.<br><br>5-agent LangGraph system (router, analysis, mentor, execution, evaluation) running entirely on free-tier inference.<br>Hardened Docker sandbox for untrusted code execution — audited against both container escape and prompt injection as distinct threat models, with the reasoning written up, not just patched.<br>FastAPI + SSE backend, Supabase persistence with per-session authorization, LangFuse observability, and every non-obvious architecture call documented as an ADR.<br>Deployed live on AWS EC2, with CI, a hardened production Docker build, and an honest scope note on what it does and doesn't solve.<br>⚓ CyberRescue<br><br>A secure MCP host telemetry gateway — gives Claude eyes and hands inside broken Docker containers.<br><br>Exposes container log streaming, live memory/CPU probing, and isolated diagnostic execution to any MCP client, with input validation, command blocklists, retry with back-off, and sanitized errors built in.<br>Cuts per-endpoint agent integration time from ~2 hours to under 30 minutes — new diagnostic capabilities are a single decorated function.<br>Status: Verified A-Grade Quality on Glama, CI-tested on every push, listed on global MCP indexes.<br>cyberrescue MCP server<br><br>📚 ContextQuery<br><br>Grounded document Q&A with hybrid retrieval — every answer traceable to the exact source passage.<br><br>Hybrid BM25 + semantic search (fused via Reciprocal Rank Fusion) with NVIDIA NIM reranking cuts irrelevant context injection by ~40% versus naive top-K retrieval.<br>FastAPI + Chroma Cloud + NVIDIA NIM (embed/rerank/LLM), traced end-to-end in Langfuse, with a repeatable eval harness.<br>Next.js 15 frontend · Live demo · Write-up: how I got 100% retrieval precision with hybrid RRF<br>🚀 PyCursor<br><br>A self-healing Python coding agent — writes, executes, and fixes its own code.<br><br>LangGraph state machine feeds runtime stack traces back into the LLM until the code executes cleanly: 90% self-healing success rate on Python stack traces.<br>Runs fully on-device via Ollama (Qwen2.5-Coder 7B) by default, with a one-toggle switch to Gemini cloud inference.<br>🧠 leetcode-solutions<br><br>DSA practice in Python, structured around the NeetCode 75 roadmap — 3–4 problems a week, each with complexity notes and intuition.<br><br>💡 Tech stack<br><br>AI & agent engineering<br><br>Model Context Protocol FastMCP LangGraph LangChain NVIDIA NIM Ollama Chroma Langfuse<br><br>Languages & frameworks<br><br>Python FastAPI TypeScript Next JS TailwindCSS Streamlit<br><br>Infrastructure & delivery<br><br>Docker GitHub Actions AWS Vercel Supabase<br><br>📫 Let's connect<br><br>🌐 Portfolio: vivek-portfolio-vert.vercel.app<br>💼 LinkedIn: linkedin.com/in/vivek-vdev<br>📧 Email: vivekpatil200320@gmail.com<br>🛠️ Glama Registry: glama.ai/mcp/servers/vivekpatil200320/cyberrescue<br>✍️ Hashnode: vivekpatil23.hashnode.dev<br>✍️ dev.to: dev.to/vivek_vdev<br>✨ "First, solve the problem. Then, write the code." — John Johnson
+# Hi, I'm Vivek 👋
 
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/VDevautomations) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Vivek-vdev) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@vivekpatil200320) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/46609557) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/VDevAutomations) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Vivekpatil200320@gmail.com) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=csharp&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=plastic&logo=nim&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=plastic&logo=graphql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=plastic&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=plastic&logo=chakraui&logoColor=white) ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=plastic&logo=daisyui&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=plastic&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![Esbuild](https://img.shields.io/badge/esbuild-%23FFCF00.svg?style=plastic&logo=esbuild&logoColor=black) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=plastic&logo=nodemon&logoColor=%BBDEAD) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=next.js&logoColor=white) ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=plastic&logo=pnpm&logoColor=f69220) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=plastic&logo=react%20query&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=plastic&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=plastic&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=plastic&logo=redux&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=plastic&logo=streamlit&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=plastic&logo=vuedotjs&logoColor=%234FC08D) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=plastic&logo=vite&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=plastic&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft%20sql%20server&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=plastic&logo=neo4j&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=plastic&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=plastic&logo=redis&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=plastic&logo=Twilio&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=plastic&logo=nVIDIA&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=vivekpatil200320&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=vivekpatil200320&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=vivekpatil200320&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=vivekpatil200320&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+I'm a self-taught, independent builder working on AI agent infrastructure — MCP servers that give LLMs real diagnostic hands, grounded RAG pipelines with measurable retrieval quality, multi-agent LangGraph systems, and self-healing coding agents. I like projects where the interesting part isn't "call an LLM," it's the plumbing around it: sandboxing, observability, failure-mode analysis, and the kind of architecture decisions you only find by actually running the thing under load.
 
 ---
-[![](https://komarev.com/ghpvc/?username=vivekpatil200320&icon=0&color=0)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/vdevautomations23) 
+### 🌱 Currently
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+- Building and shipping full-stack AI agent systems end to end — backend, frontend, infra, and the docs explaining *why* they're built that way.
+- Working through the NeetCode 75 roadmap in Python, a few problems a week.
+- Always looking for the next project that has a real, non-obvious engineering problem hiding in it.
+
+---
+
+### 📦 Featured projects
+
+#### 🧑‍🏫 [ai-coding-mentor](https://github.com/Vivekpatil200320/ai-coding-mentor)
+*A Socratic AI mentor that guides you to fix broken code through questions, never answers — then delivers a rubric-scored senior-engineer code review once you pass.*
+- 5-agent LangGraph system (router, analysis, mentor, execution, evaluation) running entirely on free-tier inference.
+- Hardened Docker sandbox for untrusted code execution — audited against **both** container escape and prompt injection as distinct threat models, with the reasoning written up, not just patched.
+- FastAPI + SSE backend, Supabase persistence with per-session authorization, LangFuse observability, and every non-obvious architecture call documented as an ADR.
+- Deployed live on AWS EC2, with CI, a hardened production Docker build, and an honest scope note on what it does and doesn't solve.
+
+#### ⚓ [CyberRescue](https://github.com/vivekpatil200320/cyberrescue)
+*A secure MCP host telemetry gateway — gives Claude eyes and hands inside broken Docker containers.*
+- Exposes container log streaming, live memory/CPU probing, and isolated diagnostic execution to any MCP client, with input validation, command blocklists, retry with back-off, and sanitized errors built in.
+- Cuts per-endpoint agent integration time from ~2 hours to under 30 minutes — new diagnostic capabilities are a single decorated function.
+- **Status:** Verified **A-Grade Quality** on Glama, CI-tested on every push, listed on global MCP indexes.
+
+[![cyberrescue MCP server](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue/badges/card.svg)](https://glama.ai/mcp/servers/Vivekpatil200320/cyberrescue)
+
+#### 📚 [ContextQuery](https://github.com/vivekpatil200320/contextquery-backend)
+*Grounded document Q&A with hybrid retrieval — every answer traceable to the exact source passage.*
+- Hybrid BM25 + semantic search (fused via Reciprocal Rank Fusion) with NVIDIA NIM reranking cuts irrelevant context injection by ~40% versus naive top-K retrieval.
+- FastAPI + Chroma Cloud + NVIDIA NIM (embed/rerank/LLM), traced end-to-end in Langfuse, with a repeatable eval harness.
+- [Next.js 15 frontend](https://github.com/vivekpatil200320/contextquery-frontend) · [Live demo](https://contextquery-frontend.vercel.app) · [Write-up: how I got 100% retrieval precision with hybrid RRF](https://dev.to/vivek_vdev/hybrid-retrieval-rrf-how-i-got-100-retrieval-precision-in-a-production-rag-system-1oga)
+
+#### 🚀 [PyCursor](https://github.com/Vivekpatil200320/PyCursor--Self-Healing-Hybrid-Coding-Agent)
+*A self-healing Python coding agent — writes, executes, and fixes its own code.*
+- LangGraph state machine feeds runtime stack traces back into the LLM until the code executes cleanly: 90% self-healing success rate on Python stack traces.
+- Runs fully on-device via Ollama (Qwen2.5-Coder 7B) by default, with a one-toggle switch to Gemini cloud inference.
+
+#### 🧠 [leetcode-solutions](https://github.com/vivekpatil200320/leetcode-solutions)
+*DSA practice in Python, structured around the NeetCode 75 roadmap — 3–4 problems a week, each with complexity notes and intuition.*
+
+---
+
+### 💡 Tech stack
+
+**AI & agent engineering**
+
+![Model Context Protocol](https://img.shields.io/badge/MCP-Protocol-blue?style=for-the-badge&logo=anthropic&logoColor=white)
+![FastMCP](https://img.shields.io/badge/FastMCP-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-orange?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-1C3C3C?style=for-the-badge)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-Inference-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Local_LLMs-black?style=for-the-badge)
+![Chroma](https://img.shields.io/badge/Chroma-Vector_DB-FF6B6B?style=for-the-badge)
+![Langfuse](https://img.shields.io/badge/Langfuse-Observability-000000?style=for-the-badge)
+
+**Languages & frameworks**
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+**Infrastructure & delivery**
+
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-EC2-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+---
+
+### 📫 Let's connect
+
+- 🌐 **Portfolio:** [vivek-portfolio-vert.vercel.app](https://vivek-portfolio-vert.vercel.app/)
+- 💼 **LinkedIn:** [linkedin.com/in/vivek-vdev](https://linkedin.com/in/vivek-vdev)
+- 📧 **Email:** vivekpatil200320@gmail.com
+- 🛠️ **Glama Registry:** [glama.ai/mcp/servers/vivekpatil200320/cyberrescue](https://glama.ai/mcp/servers/vivekpatil200320/cyberrescue)
+- ✍️ **Hashnode:** [vivekpatil23.hashnode.dev](https://vivekpatil23.hashnode.dev/)
+- ✍️ **dev.to:** [dev.to/vivek_vdev](https://dev.to/vivek_vdev)
+
+✨ *"First, solve the problem. Then, write the code."* — John Johnson
