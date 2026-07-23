@@ -1,4 +1,8 @@
+![Vivek Patil](https://capsule-render.vercel.app/api?type=waving&height=180&color=0:6C5CE7,100:00D2FF&text=Vivek%20Patil&fontColor=ffffff&fontSize=42&fontAlignY=40&animation=fadeIn)
+
 # Hi, I'm Vivek 👋
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=AI+agent+infrastructure+%26+MCP+servers;Grounded+RAG+pipelines+with+measurable+retrieval;Self-healing+coding+agents)](https://git.io/typing-svg)
 
 I'm a self-taught, independent builder working on AI agent infrastructure — MCP servers that give LLMs real diagnostic hands, grounded RAG pipelines with measurable retrieval quality, multi-agent LangGraph systems, and self-healing coding agents. I like projects where the interesting part isn't "call an LLM," it's the plumbing around it: sandboxing, observability, failure-mode analysis, and the kind of architecture decisions you only find by actually running the thing under load.
 
