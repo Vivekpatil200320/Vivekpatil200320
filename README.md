@@ -3,7 +3,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=AI+agent+infrastructure+%26+MCP+servers;Grounded+RAG+pipelines+with+measurable+retrieval;Self-healing+coding+agents)](https://git.io/typing-svg)
 
-I'm a self-taught engineer building AI agent infrastructure — MCP servers, RAG systems, and multi-agent LangGraph pipelines. I care about the engineering *around* the model call, not the call itself: sandboxed code execution, retrieval quality measured with eval harnesses instead of assumed, end-to-end tracing, and real failure handling. I ship projects fully — backend, frontend, infra, tests, and the docs explaining why they're built the way they are.
+I'm a self-taught engineer building AI agent infrastructure — MCP servers, RAG systems, and multi-agent LangGraph pipelines. I care about the engineering *around* the model call, not the call itself: sandboxed code execution, retrieval quality measured with eval harnesses instead of assumed, end-to-end tracing, and real failure handling. I ship projects fully — backend, frontend, infra, tests, and the docs explaining why they're built the way they are...
 
 ---
 
