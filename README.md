@@ -13,10 +13,12 @@ I'm a self-taught engineer building AI agent infrastructure — MCP servers, RAG
 
 **Problem:** RAG systems hallucinate or bury the LLM in irrelevant context, and you can't trust an answer you can't trace back to a source.
 
-**What it does:** Grounded document Q&A over PDFs and DOCX — every answer cites the exact source chunk it came from, and if the documents don't contain the answer, it says so instead of falling back on the model's training knowledge. That constraint is the whole point.
+**What it does:** Grounded document Q&A over PDFs, DOCX, and OKF markdown bundles — every answer cites the exact source chunk it came from, and if the documents don't contain the answer, it says so instead of falling back on the model's training knowledge. That constraint is the whole point.
 
 - **Hybrid retrieval, measured:** BM25 keyword search + semantic vector search fused via Reciprocal Rank Fusion, then reranked by an NVIDIA NIM reranker — **~40% fewer irrelevant chunks** reach the LLM versus naive top-K retrieval.
-- **Real eval harness:** scores retrieval precision and answer faithfulness across semantic and hybrid modes; latest run hit **100% retrieval precision on applicable cases at ~2.4s average end-to-end latency** — quality is a number, not a vibe.
+- **Trust-aware ingestion:** an OKF (Open Knowledge Format) adapter parses markdown bundles with YAML frontmatter, preserves cross-document links as chunk metadata, excludes superseded draft content from retrieval, and flags stale-dated chunks in-context instead of presenting them as current fact.
+- **Persisted conversations:** Supabase-backed named threads — follow-up questions ("what about pricing?") resolve against prior turns instead of resetting per query.
+- **Real eval harness, caught a real bug:** a 10-case deterministic suite (6/6 retrieval precision, 8/8 faithfulness, 2/2 on the new trust-signal cases) is what surfaced Chroma's collection silently defaulting to L2 distance instead of cosine similarity — fixed by normalizing embeddings on both the ingest and query paths.
 - **Observable:** every LLM call and retrieval step is traced in Langfuse, so regressions are visible instead of anecdotal.
 - **Built for real documents:** async background ingestion (a 950-page doc chunks into thousands of pieces), batched embeddings (96 per request), and token-by-token SSE streaming.
 - **Zero paid API spend** — runs entirely on free-tier infrastructure, with runtime switches for retrieval mode (`semantic` / `hybrid`) and LLM provider (`ollama` / `nvidia`).
